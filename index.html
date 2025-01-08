@@ -9,15 +9,18 @@
 	<meta name="keywords" content="HTML, CSS, JavaScript">
 	<link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
 	<title>Raquel Morabito</title>
+
+	<!-- Link para a Folha de Estilo da Página - CSS -->
+<link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
 	<!-- Cabeçalho da Página (header) -->
 	<header>
-		<div id="header_content">
+		<div id="header_content" class="flex">
 			<div id="titulo">
-				<h1>Raquel Morabito</h1>
+				<h1>👋 Olá, mundo! Meu nome é Raquel!</h1>
 			</div>
 			<div id="menu">
 				<nav>
@@ -37,16 +40,19 @@
 	<!-- Seção Principal da Página (main) -->
 	<main>
 		<!-- Seção Sobre você -->
-		<section id="about">
-			<h2>Sobre mim</h2>
-			<div id="conteudo">
-				<img src="./assets/img/user_01.svg" alt="Foto de Raquel Morabito" />
+		<section id="about" class="flex_start">
+			<h2>☕ Sobre mim</h2>
+			<div id="conteudo" class="flex">
+				<img src="./assets/img/E.jpg" 
+				alt="Foto de Raquel Morabito" 
+				class="img_profile"
+				/>
 				<article id="sobre_texto">
 					<p>
-						Olá! Meu nome é Raquel e quero compartilhar um pouquinho da minha jornada com você.  
+						Meu nome é Raquel, mas pode me chamar de Quel! Quero compartilhar um pouquinho da minha jornada com você.  
 					</p>
 					<p>
-						Tudo começou no ensino fundamental, quando sonhava em ser blogueira e criei meu próprio blog. Foi ali que dei meus primeiros passos no mundo da tecnologia, explorando HTML, mudando cores, e criando layouts super vibrantes. Meu primeiro blog era rosa e brilhante, mas foi o suficiente para despertar em mim uma paixão pela tecnologia.  
+						Tudo começou no ensino fundamental, quando sonhava em ser blogueira e criei meu próprio blog. Foi ali que dei meus primeiros passos no mundo da tecnologia, explorando HTML, mudando cores, e criando layouts super coloridos e brilhantes que foram o suficiente para despertar em mim uma paixão pela tecnologia.  
 					</p>
 					<p>
 						No ensino médio, participei de uma competição chamada <strong>Startups in School</strong>, onde minha equipe criou um app de mobilidade urbana que nos rendeu um prêmio. Foi nesse momento que percebi o quanto a tecnologia pode transformar a vida das pessoas e fazer a diferença.  
@@ -64,16 +70,16 @@
 						Além das habilidades técnicas, estou aprimorando minhas soft skills, como proatividade, trabalho em equipe, comunicação e persistência.  
 					</p>
 					<p>
-						Se você busca alguém que combina inovação, colaboração e uma forte capacidade de resolver problemas, vamos conversar! Juntos, podemos criar não só sistemas funcionais, mas também resultados excepcionais.  
+						Hoje, enxergo minha jornada como uma paleta de cores vibrantes, onde cada experiência – seja no laboratório ou na tecnologia – acrescenta novos tons. Eu estou aqui para colorir ideias, conectá-las e fazê-las brilhar. Se você busca alguém que combina inovação, colaboração e uma forte capacidade de resolver problemas, vamos conversar! Juntos, podemos transformar ideias em projetos e soluções brilhantes!  
 					</p>
 				</article>
 			</div>
 		</section>
 
 		<!-- Seção contendo um vídeo de sua preferência -->
-		<section id="video">
-			<h2>Minha música favorita</h2>
-			<div id="youtube">
+		<section id="video" class="flex_start">
+			<h2>☕ Minha música favorita</h2>
+			<div id="youtube" class="flex">
 				<iframe
 					width="560"
 					height="315"
@@ -88,7 +94,7 @@
 	</main>
 
 	<!-- Rodapé da Página (footer) -->
-	<footer>
+	<footer class="flex">
 		<section id="redes_sociais">
 			<a href="https://www.linkedin.com/in/raquelmorabito" target="_blank">
 				<img src="assets/img/linkedin.svg" alt="LinkedIn" />
