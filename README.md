@@ -43,7 +43,7 @@ Isso abrirá o site em seu navegador padrão, e você poderá visualizar e testa
 
 Este site está dissponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:
 
-- [Portfólio Pessoal](https://raquelmorabito.io/portifolio-pessoal)
+- [Portfólio Pessoal](https://raquelmorabito.github.io/portifolio-pessoal/contato.html)
 
 ## Contribuindo
 
